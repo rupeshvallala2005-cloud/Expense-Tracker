@@ -69,19 +69,12 @@ A web-based Expense Tracker that helps users manage their personal finances by t
 
 
 ```text
-
 ExpenseTracker/
-
-â”œâ”€â”€ backend/
-
-â”œâ”€â”€ frontend/
-
-â”œâ”€â”€ screenshots/
-
-â”‚   â””â”€â”€ dashboard.png.png
-
-â””â”€â”€ README.md
-
+    backend/
+    frontend/
+    screenshots/
+        dashboard.png.png
+    README.md
 ```
 
 
