@@ -10,7 +10,7 @@ A web-based Expense Tracker that helps users manage their personal finances by t
 
 
 
-!\[Expense Tracker Dashboard](screenshots/dashboard.png.png)
+![Expense Tracker Dashboard](screenshots/dashboard.png.png)
 
 
 
@@ -18,19 +18,19 @@ A web-based Expense Tracker that helps users manage their personal finances by t
 
 
 
-\* Add income and expense transactions.
+- Add income and expense transactions.
 
-\* Edit existing transactions.
+- Edit existing transactions.
 
-\* Delete transactions.
+- Delete transactions.
 
-\* View total income, expenses, and available balance.
+- View total income, expenses, and available balance.
 
-\* Category-wise expense visualization.
+- Category-wise expense visualization.
 
-\* Interactive dashboard.
+- Interactive dashboard.
 
-\* Responsive design for desktop and mobile devices.
+- Responsive design for desktop and mobile devices.
 
 
 
@@ -42,13 +42,13 @@ A web-based Expense Tracker that helps users manage their personal finances by t
 
 
 
-\* HTML
+- HTML
 
-\* CSS
+- CSS
 
-\* JavaScript
+- JavaScript
 
-\* Chart.js
+- Chart.js
 
 
 
@@ -56,11 +56,11 @@ A web-based Expense Tracker that helps users manage their personal finances by t
 
 
 
-\* Python
+- Python
 
-\* FastAPI
+- FastAPI
 
-\* SQLite
+- SQLite
 
 
 
@@ -96,7 +96,7 @@ ExpenseTracker/
 
 ```powershell
 
-uvicorn expense\_app:app --reload
+uvicorn expense_app:app --reload
 
 ```
 
@@ -123,6 +123,7 @@ Open `http://localhost:5502/expense.html`.
 
 
 To provide a simple and user-friendly platform for tracking personal income and expenses.
+
 
 
 
