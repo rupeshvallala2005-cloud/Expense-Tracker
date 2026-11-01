@@ -1,4 +1,4 @@
-*# Expense Tracker – Personal Finance Dashboard*
+*# Expense Tracker - Personal Finance Dashboard*
 
 
 
@@ -74,17 +74,7 @@
 
 *├── backend/*
 
-*│   ├── expense\_app.py*
-
-*│   └── requirements.txt*
-
 *├── frontend/*
-
-*│   ├── expense.html*
-
-*│   ├── style.css*
-
-*│   └── script.js*
 
 *├── screenshots/*
 
@@ -104,10 +94,6 @@
 
 
 
-*Open PowerShell, navigate to the backend folder, activate your virtual environment, and run:*
-
-
-
 *```powershell*
 
 *uvicorn expense\_app:app --reload*
@@ -120,10 +106,6 @@
 
 
 
-*Open another PowerShell window, navigate to the frontend folder, and run:*
-
-
-
 *```powershell*
 
 *python -m http.server 5502*
@@ -132,11 +114,7 @@
 
 
 
-*Then open:*
-
-
-
-*`http://localhost:5502/expense.html`*
+*Open `http://localhost:5502/expense.html`.*
 
 
 
