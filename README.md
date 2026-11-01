@@ -154,7 +154,5 @@
 
 
 
-!\[Expense Tracker Dashboard](screenshots/dashboard.png)
-
-
+!\[Expense Tracker Dashboard](screenshots/dashboard.png.png)
 
