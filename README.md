@@ -6,6 +6,14 @@
 
 
 
+*## Project Screenshot*
+
+
+
+*!\[Expense Tracker Dashboard](screenshots/dashboard.png.png)*
+
+
+
 *## Features*
 
 
@@ -30,7 +38,7 @@
 
 
 
-*\*\*Frontend\*\**
+*### Frontend*
 
 
 
@@ -44,7 +52,7 @@
 
 
 
-*\*\*Backend\*\**
+*### Backend*
 
 
 
@@ -64,15 +72,11 @@
 
 *ExpenseTracker/*
 
-*│*
-
 *├── backend/*
 
 *│   ├── expense\_app.py*
 
-*│   └── ...*
-
-*│*
+*│   └── requirements.txt*
 
 *├── frontend/*
 
@@ -82,7 +86,9 @@
 
 *│   └── script.js*
 
-*│*
+*├── screenshots/*
+
+*│   └── dashboard.png.png*
 
 *└── README.md*
 
@@ -98,13 +104,7 @@
 
 
 
-*1. Open PowerShell.*
-
-*2. Navigate to the backend folder.*
-
-*3. Activate the virtual environment.*
-
-*4. Start the FastAPI server.*
+*Open PowerShell, navigate to the backend folder, activate your virtual environment, and run:*
 
 
 
@@ -120,11 +120,7 @@
 
 
 
-*1. Open another PowerShell window.*
-
-*2. Navigate to the frontend folder.*
-
-*3. Start the frontend server.*
+*Open another PowerShell window, navigate to the frontend folder, and run:*
 
 
 
@@ -136,11 +132,11 @@
 
 
 
-*Open:*
+*Then open:*
 
 
 
-*http://localhost:5502/expense.html*
+*`http://localhost:5502/expense.html`*
 
 
 
@@ -150,9 +146,5 @@
 
 *To provide a simple and user-friendly platform for tracking personal income and expenses.*
 
-\## Project Screenshot
 
-
-
-!\[Expense Tracker Dashboard](screenshots/dashboard.png.png)
 
