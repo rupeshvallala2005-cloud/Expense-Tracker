@@ -1,128 +1,128 @@
-*# Expense Tracker - Personal Finance Dashboard*
+﻿# Expense Tracker - Personal Finance Dashboard
 
 
 
-*A web-based Expense Tracker that helps users manage their personal finances by tracking income, expenses, and available balance.*
+A web-based Expense Tracker that helps users manage their personal finances by tracking income, expenses, and available balance.
 
 
 
-*## Project Screenshot*
+## Project Screenshot
 
 
 
-*!\[Expense Tracker Dashboard](screenshots/dashboard.png.png)*
+!\[Expense Tracker Dashboard](screenshots/dashboard.png.png)
 
 
 
-*## Features*
+## Features
 
 
 
-*\* Add income and expense transactions.*
+\* Add income and expense transactions.
 
-*\* Edit existing transactions.*
+\* Edit existing transactions.
 
-*\* Delete transactions.*
+\* Delete transactions.
 
-*\* View total income, expenses, and available balance.*
+\* View total income, expenses, and available balance.
 
-*\* Category-wise expense visualization.*
+\* Category-wise expense visualization.
 
-*\* Interactive dashboard.*
+\* Interactive dashboard.
 
-*\* Responsive design for desktop and mobile devices.*
+\* Responsive design for desktop and mobile devices.
 
 
 
-*## Technologies Used*
+## Technologies Used
 
 
 
-*### Frontend*
+### Frontend
 
 
 
-*\* HTML*
+\* HTML
 
-*\* CSS*
+\* CSS
 
-*\* JavaScript*
+\* JavaScript
 
-*\* Chart.js*
+\* Chart.js
 
 
 
-*### Backend*
+### Backend
 
 
 
-*\* Python*
+\* Python
 
-*\* FastAPI*
+\* FastAPI
 
-*\* SQLite*
+\* SQLite
 
 
 
-*## Project Structure*
+## Project Structure
 
 
 
-*```text*
+```text
 
-*ExpenseTracker/*
+ExpenseTracker/
 
-*├── backend/*
+â”œâ”€â”€ backend/
 
-*├── frontend/*
+â”œâ”€â”€ frontend/
 
-*├── screenshots/*
+â”œâ”€â”€ screenshots/
 
-*│   └── dashboard.png.png*
+â”‚   â””â”€â”€ dashboard.png.png
 
-*└── README.md*
+â””â”€â”€ README.md
 
-*```*
+```
 
 
 
-*## How to Run*
+## How to Run
 
 
 
-*### Backend*
+### Backend
 
 
 
-*```powershell*
+```powershell
 
-*uvicorn expense\_app:app --reload*
+uvicorn expense\_app:app --reload
 
-*```*
+```
 
 
 
-*### Frontend*
+### Frontend
 
 
 
-*```powershell*
+```powershell
 
-*python -m http.server 5502*
+python -m http.server 5502
 
-*```*
+```
 
 
 
-*Open `http://localhost:5502/expense.html`.*
+Open `http://localhost:5502/expense.html`.
 
 
 
-*## Project Goal*
+## Project Goal
 
 
 
-*To provide a simple and user-friendly platform for tracking personal income and expenses.*
+To provide a simple and user-friendly platform for tracking personal income and expenses.
 
 
 
