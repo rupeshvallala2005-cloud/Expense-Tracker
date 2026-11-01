@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Expense Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+   <header>
+    <h1><i class="fa-solid fa-wallet"></i> Expense Tracker</h1>
+    <p>Manage your money smartly.</p>
+
+    <nav class="navbar">
+        <a href="#dashboard">Dashboard</a>
+        <a href="#addTransaction">Add Transaction</a>
+        <a href="#transactionHistory">Transaction History</a>
+        <a href="#expenseOverview">Expense Overview</a>
+    </nav>
+</header>
+
+    <main>
+
+        <!-- Dashboard Summary -->
+
+       <section class="dashboard" id="dashboard">
+
+    <div class="card income-card">
+        <div class="card-icon">
+            <i class="fa-solid fa-arrow-trend-up"></i>
+        </div>
+        <h3>Total Income</h3>
+        <h2 id="totalIncome">₹0</h2>
+    </div>
+
+    <div class="card expense-card">
+        <div class="card-icon">
+            <i class="fa-solid fa-wallet"></i>
+        </div>
+        <h3>Total Expenses</h3>
+        <h2 id="totalExpenses">₹0</h2>
+    </div>
+
+    <div class="card balance-card">
+        <div class="card-icon">
+            <i class="fa-solid fa-piggy-bank"></i>
+        </div>
+        <h3>Available Balance</h3>
+        <h2 id="balance">₹0</h2>
+    </div>
+
+</section>
+	<section class="chart-section" id="expenseOverview">
+    <h2>Expense Overview</h2>
+
+    <div class="chart-container">
+        <canvas id="expenseChart"></canvas>
+    </div>
+</section>
+
+        <!-- Add Transaction -->
+
+        <section class="form-section" id="addTransaction">
+
+            <h2>Add New Transaction</h2>
+
+            <form id="transactionForm">
+
+                <div class="form-group">
+                    <label>Transaction Title</label>
+                    <input
+                        type="text"
+                        id="title"
+                        placeholder="Enter title"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label>Amount (₹)</label>
+                    <input
+                        type="number"
+                        id="amount"
+                        placeholder="Enter amount"
+                        min="0.01"
+                        step="0.01"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label>Category</label>
+
+                    <select id="category" required>
+                        <option value="">Select Category</option>
+                        <option value="Salary">Salary</option>
+                        <option value="Food">Food</option>
+                        <option value="Travel">Travel</option>
+                        <option value="Shopping">Shopping</option>
+                        <option value="Education">Education</option>
+                        <option value="Bills">Bills</option>
+                        <option value="Entertainment">Entertainment</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Transaction Type</label>
+
+                    <select id="transactionType" required>
+                        <option value="income">Income</option>
+                        <option value="expense">Expense</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Date</label>
+
+                    <input
+                        type="date"
+                        id="transactionDate"
+                        required
+                    >
+                </div>
+
+                <button type="submit" id="submitButton">
+                    Add Transaction
+                </button>
+
+                <button type="button" id="cancelEdit" hidden>
+                    Cancel Edit
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <!-- Transaction History -->
+
+        <section class="history-section" id="transactionHistory">
+
+            <h2>Transaction History</h2>
+
+            <div class="table-container">
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Category</th>
+                            <th>Type</th>
+                            <th>Amount</th>
+                            <th>Date</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="transactionList">
+                        <tr>
+                            <td colspan="6">Loading transactions...</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Expense Tracker | Personal Finance Dashboard</p>
+    </footer>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
