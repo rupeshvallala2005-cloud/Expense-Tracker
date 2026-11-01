@@ -150,5 +150,11 @@
 
 *To provide a simple and user-friendly platform for tracking personal income and expenses.*
 
+\## Project Screenshot
+
+
+
+!\[Expense Tracker Dashboard](screenshots/dashboard.png)
+
 
 
